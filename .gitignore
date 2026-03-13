@@ -1,0 +1,37 @@
+# VS Code and Python
+.vscode/
+*.log
+*.tmp
+
+# ChromaDB persistent store
+chromadb_store/
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# Jupyter and notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model and large data files
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+
+# Gradio temp
+/tmp/
+
+# PDF uploads (if any temp dir used)
+*.pdf
+*.bin
+.env
+*.pickle
+*.pkl
+__pycache__/
+*.pyc
+*.sqlite3
